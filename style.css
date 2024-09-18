@@ -25,6 +25,7 @@ h3 {
 
 .menu {
     display: flex;
+    margin: 5% 0 10% 0;
     justify-content: space-evenly;
     flex-direction: row;
     text-align: center;
@@ -38,9 +39,9 @@ h3 {
 }
 
 .round {
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: white;
 }
 
@@ -59,10 +60,6 @@ h3 {
     padding: 10px;
 }
 
-.score {
-    color: #555;
-}
-
 .icon-button {
     background-color: #33B667;
     color: white;
@@ -74,50 +71,6 @@ h3 {
     font-size: 24px;
 }
 
-.icon-button:hover {
-    border: none;
-    cursor: pointer;
-    padding: 10px; 
-    font-size: 24px;
-}
-
 .shield {
     margin: auto;
 } 
-
-.arrow-icons {
-    display: flex;
-    align-items: center;
-}
-
-#shield-A {
-    color:  #FF0000;
-}
-
-#shield-B {
-    color:  #0038FF;
-}
-
-#shield-C {
-    color:  #00C797;
-}
-
-#shield-D {
-    color:  #72CB00;
-}
-
-#shield-E {
-    color:  #00C797;
-}
-
-#shield-F {
-    color:  #0088D4;
-}
-
-#shield-G {
-    color:  #AD00FF;
-}
-
-#shield-H {
-    color:  #FF00E5;
-}
