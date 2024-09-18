@@ -52,6 +52,10 @@ h3 {
     border-bottom: 1px solid #ddd;
 }
 
+.round .game:last-child {
+    border-bottom: none;
+}
+
 .line {
     display: flex;
     justify-content: space-between;
